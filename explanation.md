@@ -55,4 +55,4 @@ Successful running of the applications.
 As good practices such as Docker image tag naming standards for ease of identification of images and containers.
 i have also used stdin_open: true to keep terminal running.
 
-I used the repository name together with the service name to tag my images and Semantic Versioning (semver)method to name my images prolink7544/client:1.0.0  and  prolink7544/backend:1.0.0
+I used the repository name together with the service name to tag my images and Semantic Versioning (semver)method to name my images protus/client:1.0.0  and  protus/backend:1.0.0
