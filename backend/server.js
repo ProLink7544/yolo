@@ -7,7 +7,7 @@ const upload = multer();
 const productRoute = require('./routes/api/productRoute');
 
 // Connecting to the Database.
-let mongodb_url = 'mongodb+srv://pro:0723557337@cluster1.rw4kycu.mongodb.net/';
+let mongodb_url = 'mongodb+srv://prolink7544:0723557337@yolo.mzzt1uq.mongodb.net/test';
 let dbName = 'yolomy';
 
 // define a url to connect to the database
