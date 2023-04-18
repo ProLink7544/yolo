@@ -1,8 +1,8 @@
 FROM node:13.12.0-alpine
 
-RUN mkdir /backend
+RUN mkdir /client
 
-WORKDIR /backend
+WORKDIR /client
 
 COPY . .
 
