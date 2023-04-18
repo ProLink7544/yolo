@@ -4,10 +4,10 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
-    image: protus/client:1.0.0
+    image: protus/client:1.0.0 #sematic versioning
     ports:
       - '3000:3000'
-    stdin_open: true
+    stdin_open: true #to keep terminal running
     networks:
       frontend-net:
         ipv4_address: 172.51.0.101
@@ -19,7 +19,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    image: protus/backend:1.0.0
+    image: protus/backend:1.0.0 #virsioning
     ports:
       - '5000:5000'
     environment:
